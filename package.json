@@ -3,6 +3,7 @@
     "displayName": "Create Cell-ed Branch",
     "description": "Creates a branch following Cell-Ed's branching convention",
     "version": "0.0.1",
+    "icon": "icon.png",
     "repository": "github:Cell-Ed/vscode-create-celled-branch",
     "publisher": "tehsoto",
     "engines": {
