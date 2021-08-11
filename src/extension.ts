@@ -31,13 +31,13 @@ export function activate(context: vscode.ExtensionContext) {
 		
 		if(fob !== undefined){
 			const ticketN = await showInputBox({
-				placeHolder: `${fob}/WEBAPP-<TICKET NUMBER>`, 
+				placeHolder: `${fob}/CET-<TICKET NUMBER>`, 
 				prompt: 'Enter Ticket Number'
 			});
 			
 			if(ticketN !== undefined) {
 				let description = await showInputBox({ 
-					placeHolder:`${fob}/WEBAPP-${ticketN || ''}-${initials}-<DESCRIPTION>`,
+					placeHolder:`${fob}/CET-${ticketN || ''}-${initials}-<DESCRIPTION>`,
 					prompt: `Words describing the ${fob}`
 				});
 				
